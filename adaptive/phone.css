@@ -1,0 +1,145 @@
+@media (max-width: 498px) {
+  .logo img {
+    width: 80px;
+  }
+  .headerBtn button {
+    width: 100px;
+    height: 30px;
+    font-size: 10px;
+  }
+  .infoLeft {
+    max-width: 400px;
+    width: 100%;
+    height: 500px;
+  }
+  .infoLeft h1 {
+    font-size: 30px;
+    padding: 15px 0;
+  }
+  .infoLeft p {
+    font-size: 13px;
+    width: 100%;
+  }
+  .buttons button:first-child {
+    width: 100px;
+    height: 35px;
+    font-size: 13px;
+  }
+  .buttons button:last-child {
+    width: 100px;
+    height: 35px;
+    font-size: 13px;
+  }
+  .subscribes .s-one,
+  .s-two {
+    width: 100%;
+    height: 90px;
+    display: flex;
+  }
+  #tree h1 {
+    padding-block: 20px;
+    font-size: 30px;
+  }
+  #tree p {
+    padding: 20px 0 10px 0;
+    line-height: normal;
+  }
+  .threethRight {
+    max-width: 300px;
+    width: 95%;
+  }
+  .threethLeft h2 {
+    margin-block: 10px;
+  }
+  .categories a:last-child {
+    margin-block: 10px;
+  }
+  .someThing h1 {
+    font-size: 24px;
+  }
+  .subscribes .s-one img {
+    width: 50px;
+    height: 50px;
+  }
+  .subscribes .s-two img {
+    width: 50px;
+    height: 50px;
+  }
+  .subscribes .text {
+    height: 20px;
+  }
+  .subscribes .s-one .text h4 {
+    font-size: 15px;
+    padding: 5px 0 0 5px;
+  }
+  .subscribes .s-one .text p {
+    font-size: 10px;
+  }
+  .subscribes .s-two .text h4 {
+    font-size: 15px;
+    padding: 5px 0 0 5px;
+  }
+  .subscribes .s-two .text p {
+    width: 120px;
+  }
+  .infoRight {
+    display: none;
+  }
+  .subscribe h1 {
+    font-size: 30px;
+    padding: 10px 0 0px 0;
+  }
+  .subscribe input {
+    width: 250px;
+    height: 15px;
+  }
+  .subscribe p {
+    width: 100%;
+    font-size: 18px;
+  }
+  .round {
+    top: 209px;
+    left: 260px;
+  }
+  .footerLogo img {
+    width: 90px;
+    height: 40px;
+    padding-right: 20px;
+  }
+  .footerButton a {
+    font-family: sans-serif;
+    font-size: 13px;
+  }
+  .footerButton button {
+    width: 90px;
+    height: 35px;
+    font-size: 10px;
+  }
+  .footerBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footerLogo {
+    margin: 80px 0 0 0;
+  }
+  .footerInfo {
+    padding: 20px;
+  }
+  .addressPage a {
+    font-size: 14px;
+  }
+}
+@media (max-width: 320px) {
+  .subscribe input {
+    width: 180px;
+  }
+  .round {
+    left: 190px;
+    top: 230px;
+  }
+  .footerLogo img {
+    width: 66px;
+    height: 23px;
+  }
+}

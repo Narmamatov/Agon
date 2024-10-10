@@ -1,0 +1,228 @@
+@media (max-width: 1700px) {
+  .threethRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .lastBoxOfCategory {
+    margin: 0 0px 0px 0px;
+  }
+  .megaBox {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0px 0px 300px 0;
+  }
+  .legendBox {
+    margin-inline: -40px;
+  }
+  .arrow .arr1 {
+    position: absolute;
+    left: 300px;
+    top: 150px;
+  }
+  .arrow .arr2 {
+    position: absolute;
+    left: 675px;
+    top: 150px;
+  }
+  .arrow .arr3 {
+    position: absolute;
+    left: 905px;
+    bottom: 30px;
+  }
+  .arrow .arr4 {
+    position: absolute;
+    left: 400px;
+    bottom: 10px;
+    transform: rotate(180deg);
+  }
+}
+@media (max-width: 1633px) {
+  .arrow .arr1 {
+    display: none;
+  }
+  .arrow .arr2 {
+    display: none;
+  }
+  .arrow .arr3 {
+    display: none;
+  }
+  .arrow .arr4 {
+    display: none;
+  }
+}
+@media (max-width: 1465px) {
+  .box {
+    width: 210px;
+    height: 110px;
+    display: flex;
+    margin-inline: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px dashed #000;
+  }
+  .boxOfCategory {
+    width: 350px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #d1dae8;
+    border-radius: 10px;
+  }
+  .subscribes {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .text {
+    width: 10%;
+  }
+  .background {
+    width: 120%;
+  }
+  .before {
+    margin-right: -110px;
+  }
+  .after {
+    width: 30%;
+  }
+  .analizeImage {
+    display: none;
+  }
+}
+@media (max-width: 1100px) {
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  #one .section {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+  }
+  .speciallyBlock {
+    width: 80%;
+    margin: auto;
+  }
+  nav {
+    gap: 20px;
+  }
+  .megaBox {
+    margin: auto;
+    gap: 110px;
+  }
+  .background {
+    margin-top: 170px;
+    width: 100%;
+    margin-inline: auto;
+  }
+}
+@media (max-width: 950px) {
+  nav {
+    gap: 10px;
+  }
+  .megaBox {
+    height: 500px;
+    display: flex;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+  }
+  .addBlock {
+    width: 100%;
+    overflow: scroll;
+  }
+  .arrow {
+    display: none;
+  }
+  .legendBox {
+    width: 440px;
+    height: 300px;
+  }
+  .before,
+  .after {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  nav {
+    display: none;
+  }
+  .infoLeft h1 {
+    font-size: 40px;
+  }
+  .box {
+    gap: 50px;
+  }
+  .footerInfo a {
+    font-size: 85%;
+  }
+  .subscribe h1 {
+    padding: 20px 0 0 0;
+  }
+  .round {
+    top: 194px;
+  }
+  .background {
+    height: 300px;
+  }
+  .threeth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+  .threethLeft {
+    width: 350px;
+  }
+  .service a {
+    font-size: 12px;
+  }
+  .footerInfo {
+    gap: 3px;
+  }
+  .footerInfo a {
+    font-size: 12px;
+  }
+  .footerInfo a:first-child {
+    font-size: 14px;
+  }
+}
+@media (max-width: 700px) {
+  .subscribe {
+    padding: 20px;
+  }
+  .round {
+    top: 176px;
+    left: 360px;
+  }
+}
+@media (max-width: 648px) {
+  .round {
+    top: 220px;
+    left: 360px;
+  }
+}
+@media (max-width: 600px) {
+  .infoLeft {
+    width: 500px;
+    height: 500px;
+  }
+  .infoLeft h1 {
+    font-size: 35px;
+  }
+  .footerLogo img {
+    padding-right: 20px;
+  }
+}
+@media (max-width: 568px) {
+  .round {
+    top: 240px;
+    left: 360px;
+  }
+}
